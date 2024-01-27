@@ -34,3 +34,20 @@ input:focus{
     background-color: rgb(197, 197, 197);
     border: 0px;
 }
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    color: yellow;
+}
+
+li{
+    margin: 5px 0;
+    transform: scale(0);
+    transform-origin: center;
+    transition: 200ms;
+}
+
+.show{
+    transform: scale(1);
+}
