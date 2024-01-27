@@ -19,5 +19,6 @@ input.addEventListener("input",() => {
     if(sp.test(pwd)) messages[3].classList.remove("show");
     else messages[3].classList.add("show");
 
-    
+    if(pwd.includes(" ")) messages[5].classList.add("show");
+    else messages[5].classList.remove("show");
 })
