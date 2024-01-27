@@ -1,1 +1,1 @@
-#Password strength tester
+# Password strength tester
