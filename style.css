@@ -17,6 +17,7 @@ label{
     color: yellow;
     font-weight: bold;
     margin-block: 20px;
+    font-family: sans-serif;
 }
 
 input{
@@ -46,6 +47,7 @@ li{
     transform: scale(0);
     transform-origin: center;
     transition: 200ms;
+    font-family: sans-serif;
 }
 
 .show{
