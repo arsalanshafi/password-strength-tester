@@ -15,7 +15,7 @@ input.addEventListener("input",() => {
     if(n.test(pwd)) messages[2].classList.remove("show");
     else messages[2].classList.add("show");
 
-    let sp = new RegExp("[$&+,:;=?@#|'<>.^*()%!-]");
+    let sp = new RegExp("[^0-9a-zA-Z\s]");
     if(sp.test(pwd)) messages[3].classList.remove("show");
     else messages[3].classList.add("show");
 
